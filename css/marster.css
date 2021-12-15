@@ -40,6 +40,12 @@ body {
 /* Til text */
 
 /* H1 */
+h1 {
+  font-family: "Architects Daughter", sans-serif;
+  font-size: 3rem;
+  color: black;
+  line-height: 1.8;
+}
 
 /* H2 */
 h2 {

@@ -13,10 +13,6 @@
     grid-template-columns: 1fr 1fr;
     margin-bottom: 200px;
   }
-  #text {
-    color: black;
-    margin-left: 40px;
-  }
 
   #billeder {
     margin-top: 100px;
@@ -53,6 +49,12 @@
   #knap2 p {
     margin-top: 40px;
   }
+  #text {
+    color: black;
+    margin-left: 40px;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+  }
 }
 
 @media (max-width: 700px) {
@@ -66,6 +68,8 @@
     margin-left: 10px;
     margin-bottom: 50px;
     margin-right: 5px;
+    font-size: 1rem;
+    line-height: 2.2rem;
   }
   img {
     max-width: 100%;
