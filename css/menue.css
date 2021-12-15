@@ -1,0 +1,132 @@
+/* CSS for menuen siden */
+
+/* ----------------------Kristinas side----------------------- */
+
+/* Fælles for menu og vinmenu------------ */
+
+#menuwrap img {
+  width: 100%;
+  padding: 1px;
+
+  /* box-shadow: 0.5rem 0.5rem 0.5rem rgb(125, 250, 250); */
+  /* transition: 0.6s ease transform; */
+}
+
+#menuwrap .menutekst {
+  grid-column: 2/8;
+
+  padding: 1px;
+  margin: 10px;
+}
+
+#menuwrap {
+  margin: 20px;
+}
+
+/* grid og styling af link menukortet---------- */
+
+.pdf1 {
+  background-color: #010163;
+  color: #ffffff;
+  padding: 15px 30px;
+  text-align: center;
+  /* display: inline-block; */
+
+  cursor: pointer;
+  text-decoration: none;
+
+  box-shadow: 0.5rem 0.5rem 0.5rem rgb(125, 250, 250);
+  transition: 0.6s ease transform;
+
+  /* transform: rotate(5deg); */
+}
+
+.pdf1:hover {
+  color: rgb(121, 240, 248);
+}
+
+#menuwrap .menuen {
+  grid-column: 2/5;
+
+  /* background-image: url("../menubilleder/menu.jpg"); */
+  padding: 5px;
+
+  display: grid;
+}
+
+#menuwrap .menuen > *,
+#menuwrap .vinmenu > * {
+  grid-area: 1 / 1;
+}
+
+#menuwrap .menuen a,
+#menuwrap .vinmenu a {
+  place-self: center;
+}
+
+/* grid og styling af link Vinkortet------------------ */
+
+.pdf2 {
+  background-color: #010163;
+  color: #ffffff;
+  padding: 15px 14px;
+  text-align: center;
+  /* display: inline-block; */
+
+  cursor: pointer;
+  text-decoration: none;
+  /* transform: rotate(355deg); */
+  box-shadow: 0.5rem 0.5rem 0.5rem rgb(125, 250, 250);
+  transition: 0.6s ease transform;
+}
+
+.pdf2:hover {
+  color: rgb(121, 240, 248);
+}
+
+.vinmenu {
+  grid-column: 5/8;
+
+  /* background-image: url("../menubilleder/vinmenu.jpg"); */
+  display: grid;
+  padding: 5px;
+}
+
+@media (min-width: 1000px) {
+  #menuwrap {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    place-items: center;
+    gap: 10px;
+    padding: 1px;
+    margin: 10px;
+    color: black;
+  }
+}
+
+/* Alt font og tekst------------------- */
+
+@media (min-width: 400px) {
+  #menuwrap h1 {
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 3rem;
+    color: black;
+    text-align: center;
+    line-height: 1.8;
+  }
+
+  #menuwrap p {
+    font-family: "ubuntu", sans-serif;
+    font-size: 1.125rem;
+    color: black;
+    text-indent: 30px;
+    line-height: 1.4;
+  }
+}
+
+@media (min-width: 640px) {
+  #menuwrap a {
+    font-family: "ubuntu", sans-serif;
+    font-size: 1.25rem;
+  }
+}

@@ -1,0 +1,42 @@
+/* CSS for index siden - Frederik arbejder på denne side */
+
+header {
+  display: grid;
+  place-items: center;
+  grid-area: 1/1;
+  aspect-ratio: 1920/1080;
+}
+
+header video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* video cover */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+a {
+  padding: 10px;
+  overflow: hidden;
+}
+
+ul {
+  display: flex;
+  gap: 2rem;
+  background-color: initial;
+}
+
+/* Fotter */
+/* 
+  nav {
+    aspect-ratio: 16/9;
+    justify-content: center;
+  } */

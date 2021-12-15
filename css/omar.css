@@ -1,0 +1,113 @@
+/* CSS for OMAR siden */
+
+/* Master */
+
+/* Menu */
+
+/* Til billeder */
+
+/* Til text */
+@media (min-width: 600px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 200px;
+  }
+  #text {
+    color: black;
+    margin-left: 40px;
+  }
+
+  #billeder {
+    margin-top: 100px;
+    margin-right: 20px;
+  }
+  #venster-sid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  #knap1 {
+    display: grid;
+    background-color: #b6e3f7;
+    text-align: center;
+    margin-top: 100px;
+    max-width: 80%;
+    margin-left: 100px;
+    font-size: 2rem;
+  }
+  #knap1 p {
+    margin-top: 60px;
+  }
+  #knap2 {
+    display: grid;
+    font-size: 1.5rem;
+    max-width: 60%;
+    text-align: center;
+    background-color: #010163;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+    place-content: center;
+  }
+  #knap2 p {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 700px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  #text {
+    color: black;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    margin-right: 5px;
+  }
+  img {
+    max-width: 100%;
+  }
+
+  #venster-sid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  #knap1 {
+    background-color: #b6e3f7;
+    text-align: center;
+    max-width: 80%;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 1.2rem;
+  }
+
+  #knap1 p {
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  #knap2 {
+    font-size: 0.8rem;
+    max-width: 60%;
+    text-align: center;
+    background-color: #010163;
+    margin-top: 50px;
+    margin-left: 90px;
+    margin-bottom: 50px;
+  }
+
+  #knap2 p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    color: black;
+  }
+}
+
+/* Fotter */
