@@ -22,8 +22,8 @@ body {
 
   li {
     float: left;
-    /* background-color: #010163; */
   }
+
   li a {
     display: flex;
     color: white;
