@@ -11,7 +11,6 @@
 
 #menuwrap .menutekst {
   grid-column: 2/8;
-
   padding: 1px;
   margin: 10px;
 }
@@ -78,6 +77,8 @@
   display: grid;
   padding: 5px;
 }
+
+/* media queries starter her----------------------- */
 
 @media (min-width: 1000px) {
   #menuwrap {
