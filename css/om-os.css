@@ -73,16 +73,18 @@ section 1------------------------------------------------------------ */
 @media (min-width: 400px) {
   .tekst1 p {
     color: black;
-    font-size: 1rem;
+    font-size: 1.125rem;
     font-family: "ubuntu", sans-serif;
     padding: 10px;
+    line-height: 1.9rem;
   }
 
   .tekst2 p {
     color: black;
-    font-size: 1rem;
+    font-size: 1.125rem;
     font-family: "ubuntu", sans-serif;
     padding: 10px;
+    line-height: 1.9rem;
   }
 }
 
