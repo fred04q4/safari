@@ -166,6 +166,7 @@ footer {
   grid-column: 2/5;
   align-self: center;
   justify-self: center;
+  width: 100%;
 }
 
 .video {
