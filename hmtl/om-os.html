@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="dk">
+<html lang="da">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -99,7 +99,14 @@
           <img src="/omosbilleder/Billede2.jpg" alt="Asmus" />
           <figcaption>ASMUS STÆRK JUUL-RASMUSSEN</figcaption>
         </figure>
+        <video controls id="myVideo">
+          <source
+            src="https://mathildegrama.dk/kea/05_indhold/InterviewSafari.mp4?fbclid=IwAR2KWZ-buJ1DyGGGISf7Nd0TaSOVLhPsxQXeIzPi6yTHaIVsN6UvJgOrTE8"
+            type="video/mp4"
+          />
+        </video>
       </section>
+      <section class="video"></section>
 
       <section id="wrapper2">
         <div class="kort">
@@ -126,10 +133,15 @@
 
             <form name="contact" netlify>
               <div class="form-felt">
-                <label for="navn">Navn</label>
+                <label for="navn"> <p>Navn</p></label>
                 <input type="text" id="navn" />
                 <div>
-                  <label for="email">Email</label>
+                  <label>
+                    <p>Besked</p>
+                    <textarea name="besked" rows="5"></textarea>
+                  </label>
+
+                  <label for="email"> <p>Email</p></label>
                   <input type="text" id="email" />
                 </div>
 
@@ -180,8 +192,8 @@
 
       <section id="logo">
         <a href="/index.html">
-          <img src="/Safari_logo_vector_white3.png" alt="" srcset=""
-        /></a>
+          <img src="/Safari_logo_vector_white3.png" alt="" />
+        </a>
       </section>
     </footer>
     <script src="/js/login.js"></script>
