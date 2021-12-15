@@ -34,6 +34,15 @@ ul {
   background-color: initial;
 }
 
+#videoforside {
+  color: black;
+  opacity: 90%;
+}
+
+h5 {
+  font-size: 1.2rem;
+  font-style: bold;
+}
 /* Fotter */
 /* 
   nav {
