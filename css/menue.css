@@ -107,7 +107,7 @@
     font-family: "ubuntu", sans-serif;
     font-size: 1.125rem;
     color: black;
-    /* text-indent: 30px; */
+    padding: 10px 65px 0px 65px;
     line-height: 1.9rem;
   }
 }
