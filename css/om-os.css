@@ -15,18 +15,17 @@ section 1------------------------------------------------------------ */
 @media (min-width: 1200px) {
   #wrapper1 {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     place-items: center;
     gap: 20px;
     padding: 2px;
-    margin-right: 20px;
+
     margin-left: 20px;
   }
 
   #wrapper1 .tekst1 {
     grid-column: 1/2;
-    grid-row: 2/3;
   }
   #wrapper1 .tekst2 {
     grid-column: 2/4;
@@ -34,15 +33,11 @@ section 1------------------------------------------------------------ */
   }
 
   #wrapper1 .billede1 {
-    grid-column: 2/4;
-    grid-row: 2/3;
-    margin-right: 5%;
+    grid-column: 2/3;
   }
 
   #wrapper1 .billede2 {
-    grid-column: 3/6;
-    margin-left: 5%;
-    grid-row: 2/3;
+    grid-column: 3/4;
   }
   #wrapper1 {
     width: 100%;
@@ -51,6 +46,7 @@ section 1------------------------------------------------------------ */
   }
 }
 .logo1 {
+  grid-column: 1/2;
   background-color: rgba(252, 220, 117, 0.856);
   padding: 2px;
 
