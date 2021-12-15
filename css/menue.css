@@ -99,7 +99,7 @@
     font-size: 3rem;
     color: black;
     text-align: center;
-    line-height: 1.8;
+    line-height: 4.3rem;
   }
 
   #menuwrap p {
@@ -107,7 +107,7 @@
     font-size: 1.125rem;
     color: black;
     /* text-indent: 30px; */
-    line-height: 1.4;
+    line-height: 1.9rem;
   }
 }
 
