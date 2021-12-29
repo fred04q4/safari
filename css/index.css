@@ -31,8 +31,12 @@ a {
 ul {
   display: flex;
   gap: 2rem;
-  background-color: #010163;
+
   width: fit-content;
+}
+
+li {
+  background-color: #010163;
 }
 
 #videoforside {
